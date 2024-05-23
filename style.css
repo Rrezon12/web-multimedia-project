@@ -16,10 +16,13 @@ body{
     margin-top: 30px;
     font-size: 25px;
 }
+#home h1{
+    font-size: 50px;
+}
 .btn{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 250px;
 }
 #button{
     width: 124px;
@@ -214,6 +217,66 @@ text-align: center;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 100px;
+}
+.paragraph{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    display: flex;
+    justify-content:row;
+    gap: 5px;
+    margin-top: 15px;
+}
+ /*Home 5*/
+
+ .sliderphoto {
+    position: relative;
+    width: 900px;
+    height: 600px; /* Adjust as needed */
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sliderphoto img {
+    position: absolute;
+    width: 900px;
+    height: 600px;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+}
+
+.sliderphoto img.active {
+    opacity: 1;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
