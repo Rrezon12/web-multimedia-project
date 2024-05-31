@@ -18,7 +18,10 @@ body{
 }
 #home h1{
     font-size: 50px;
+    
+    
 }
+
 .btn{
     display: flex;
     justify-content: center;
@@ -43,6 +46,13 @@ nav{
     font-family: sans-serif;
     background: none;
     color: #FFFFFF;
+}
+.head li a {
+    display: block;
+    color: white; /* Text color of the navigation links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 nav ul{
     display: flex;
@@ -334,3 +344,43 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+
+
+/*About Us*/
+
+/* About Us Section */
+.about-section {
+    background-color: #fff;
+    padding: 50px 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-section p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 30px 10px;
+    }
+}
+.head1 li a {
+    display: block;
+    color: rgb(0, 0, 0); /* Text color of the navigation links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
