@@ -383,4 +383,19 @@ footer {
     padding: 14px 16px;
     text-decoration: none;
 }
+/*Home 6*/
 
+.Home6{
+        background-image: url('images/image11.jpg');
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: 80px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+}
