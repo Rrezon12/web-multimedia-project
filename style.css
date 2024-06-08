@@ -383,6 +383,17 @@ footer {
     padding: 14px 16px;
     text-decoration: none;
 }
+.about-section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
+.video-content{
+    padding-top: 60px;
+    margin-left: 20px;
+    
+}
 /*Home 6*/
 
 .Home6{
