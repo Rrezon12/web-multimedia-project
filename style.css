@@ -447,19 +447,19 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h3 {
+#contact h3 {
     font-size: 2rem;
     margin: 1rem 0;
     color: #fb774b;
     text-align: center;
 }
 
-p {
+#contact p {
     font-size: 1.2rem;
     text-align: center;
 }
 
-hr {
+#contact hr {
     width: 50px;
     border: 2px solid #fb774b;
     margin: 1rem auto;
