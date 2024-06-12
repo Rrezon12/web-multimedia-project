@@ -418,3 +418,49 @@ footer {
         justify-content: center;
         align-items: flex-start;
 }
+/*Contact*/
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    box-shadow: 0 5px 10px rgba(0, 0, 0,0.1);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+    color: #fb774b;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+hr {
+    width: 50px;
+    border: 2px solid #fb774b;
+    margin: 1rem auto;
+}
